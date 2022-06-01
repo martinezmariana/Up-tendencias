@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1", maximun-scale="1">
+    <link rel="shortcut icon" href="imagenes/logo.up.jpg.png" type="image/x-icon" sizes="96*96">
+    <link rel="stylesheet" href="css/contacto.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+
+    <title>Up!tendencias</title>
+  </head>
+  <body>  
+      <header>
+        <marquee style="color:rgb(235, 84, 197); text-shadow:5px 5px 5px rgb(194, 184, 194);">
+            <h1>PAGÁ EN 3 Y 6 CUOTAS SIN INTERÉS CON VISA Y MASTER &nbsp;&nbsp;PAGÁ EN 3 Y 6 CUOTAS SIN INTERÉS CON VISA Y MASTER &nbsp;&nbsp; PAGÁ EN 3 Y 6 CUOTAS SIN INTERÉS CON VISA Y MASTER</h1>
+          </marquee>
+          
+          <div class="header_superior">
+              <div class="logo"> 
+                  <img src="imagenes/logo.up.jpg.png" alt="logo">
+              </div>
+              <div class="imagen1">
+                <img src="imagenes/Imagen1.png" all="" width="600px" height="100px">
+            </div>
+              
+              <div class="ayuda">
+                  <ul><li><a href="mailto:maruayemartiiz2018@gmail.com"><i class="bi bi-chat-left-text"></i>Ayuda</a></li></ul>
+              </div>
+              <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item dropdown">
+                        <img src="imagenes/carrito-de-compras.png" class="nav-link dropdown-toggle img-fluid" height="40px"
+                            width="40px" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false"></img>
+                            <p>Mi carrito</p>
+                        <div id="carrito" class="dropdown-menu" aria-labelledby="navbarCollapse">
+                            <table id="lista-carrito" class="table">
+                                <thead>
+                                    <tr>
+                                        <th>Imagen</th>
+                                        <th>Nombre</th>
+                                        <th>Precio</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+
+                            <a href="#" id="vaciar-carrito" class="btn btn-primary btn-block">Vaciar Carrito</a>
+                            <a href="carrito.html" id="procesar-pedido" class="btn btn-danger btn-block">Procesar
+                                Compra</a>
+                        </div>
+                    </li>
+                </ul>
+              </div>
+          </div>
+          </div>  
+        <div class="container_menu">
+              <div class="menu">
+                  <nav>
+                      <ul>
+                          <li><a href="index.html">Inicio</a></li>
+                          <li><a href="#">Productos</a>
+                             <ul class="link">
+                                 <li><a href="carteras.html">Carteras</a></li>
+                                 <li><a href="mochilas.html">Mochilas</a></li>
+                                 <li><a href="billeteras.html">Billeteras</a></li>
+                                 <li><a href="#">Accesorios</a></li>
+                             </ul>
+                          </li>
+                          <li><a href="contacto.html">contacto</a></li>
+                      </ul>    
+                  </nav>
+    
+              </div>
+          </div>
+      </header>
+ 
+    <div class="formulario">
+        <div class="info_contacto">
+            <section class="titulo_contacto">
+                 <h3>CONTACTO</h3>
+                 <p>Para lo que necesites, <br> estamos en contacto.</p>
+             </section>
+             <section class="contacto">
+               <p><i class="bi bi-envelope-fill"></i>uptendenciassn@gmail.com </p>
+               <p><i class="bi bi-telephone-inbound-fill"></i>336-4327053</p>
+               <p><i class="bi bi-geo-alt-fill"></i></i>Nacion 208. San Nicolas De Los Arroyos</p>
+             </section>
+            <section class="redes">
+                <ul>
+                    <li><a href="https://www.facebook.com/uptendencias" target="_blank"><i class="bi bi-facebook"></i></a></li>
+                    <li><a href="https://www.instagram.com/uptendenciassn/?hl=es" target="_blank"><i class="bi bi-instagram"></i></a></li>
+               </ul>
+            </section>
+        </div>
+<div class="contact_form">
+   <div class="formulario_contacto">
+        <form action=" " method="post">
+             <p>
+                <label for="nombre" class ="colocar_nombre">Nombres
+                 <span class ="obligatorio">*</span>
+                 </label>
+                  <input type="text" name="introducir_nombre" id="nombre" required="obligatorio"
+                   placeholder="no te olvides de cargarte" maxlength="5">
+             </p>
+              <p>
+              <label for ="email" class ="colocar_email"> Email
+                <span class="obligatorio">*</span>
+              </label>
+             <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
+               </p>
+
+              <p>
+                  <label for="telefone" class="colocar_telefono">Teléfono
+                    <span class="obligatorio">*</span>
+                  </label>
+                  <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+             </p>
+               <p>
+                 <label for="mensaje" class="colocar_mensaje">Mensaje
+                    <span class="obligatorio">*</span>
+                  </label>
+                            <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea>
+              </p>
+
+               <button type="submit" value="Enviar">
+               <p>Enviar</p></button>
+          </form>
+    </div>
+    </div>
+</div>
+<footer class="referencias">
+  <div>
+      <ul>
+          <h3>categoria</h3>
+         <li><a href="index.html">inicio</a></li>
+         <li><a href="#">productos</a></li>
+         <li><a href="contacto.html">contacto</a></li>
+      </ul>
+  </div>
+  <div>
+      <ul>
+          <h3>horarios</h3>
+         <p>lunes a sabados 8:30 a 13hs <br> 16:30 a 20:30hs.</p>
+      </ul>
+  </div>
+  <div>
+      <ul>
+          <h3>contactanós</h3>
+         <li><a href="">3364327053</a></li>
+         <li><a href="#">03364454689</a></li>
+         <li><a href="#">up!tendencias@gmail.com</a></li>
+         <li><a href="#">nacion 208, san nicolas de los <br>arroyos</a></li>
+      </ul>
+  </div>
+  <div>
+      <ul>
+          <h3>seguinos en</h3>
+          <li><a href="https://www.facebook.com/uptendencias"><i class="bi bi-facebook"></i></a></li>
+          <li><a href="https://www.instagram.com/uptendenciassn/?hl=es"></i></a></li>
+      </ul>
+  </div>
+</footer>
+<footer class="pie-de-pagina">
+  <small>  &copy; Up!tendencias-2022. Todos los derechos reservados</small>
+  <address> &nbsp; Defenza de las y los consumidores . para reclamos <a href="https://www.argentina.gob.ar/produccion/defensadelconsumidor/formulario" target="_blank">Ingrese aquí</a></address>
+</footer>
+<script src="js/carrito.js"></script>
+   <script src="js/compra.js"></script>
+   <script src="js/pedido.js"></script>
+<script
+   type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.1.0/mdb.min.js"
+>  </script>
+</body>
+</html>
